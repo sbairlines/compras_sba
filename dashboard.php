@@ -96,7 +96,7 @@
 								} else {
 									$datos = $db->select("requerimiento_clasificacion", ["[>]requerimientos" => ["id_requerimiento" => "id"]], "*", ["AND" => ["fecha_inicio[<=]" => date("Y-m-d"), "fecha_fin[>=]" => date("Y-m-d"), "estatus" => "0", "id_clasificacion" => $_SESSION["usuario"]["clasificaciones"]], "GROUP" => "id_requerimiento", "LIMIT" => 10]);
 								}
-	                            foreach ($datos as $data) {
+	                            foreach ( $datos as $data ) {
 	                            ?>
 		                            <tr>
 										<td>
