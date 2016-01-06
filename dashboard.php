@@ -2,7 +2,8 @@
 	<div class="page-sidebar-wrapper">
 		<?php 
 		$activeClass = "dashboard";
-		include 'menu.php';?>
+		include 'menu.php';
+		?>
 	</div>
 </div>
 <!-- END SIDEBAR -->
