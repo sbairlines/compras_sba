@@ -1,5 +1,6 @@
 <?php
 include 'medoo.php';
+
 $db = new medoo([
 // required
 	'database_type' => 'mysql',
